@@ -1,4 +1,4 @@
-# 🛡 Fall Detection using YOLOv5 and TensorRT on Jetson Nano
+#  Fall Detection using YOLOv5 and TensorRT on Jetson Nano
 
 Welcome to this real-time **Fall Detection System** powered by **YOLOv5**, trained on a custom dataset and deployed on **Jetson Nano** using **TensorRT** for optimized inference. The goal is to detect whether a person is **standing**, **sitting**, or has **fallen**, in real time, using only a camera.
 
@@ -54,14 +54,12 @@ pip install -r requirements.txt
 📁 Prepare Dataset
 Configure your data.yaml file like this:
 
-    train: ../data/images/train
+   train: ../data/images/train
+   val: ../data/images/val
+   test: ../data/images/test
 
-    val: ../data/images/val
-
-    test: ../data/images/test
-
-    nc: 3
-    names: ['fall-action', 'sit', 'stand']
+   nc: 3
+   names: ['fall-action', 'sit', 'stand']
 
 Train the Model
 
