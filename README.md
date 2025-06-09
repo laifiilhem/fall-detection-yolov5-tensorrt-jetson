@@ -7,12 +7,19 @@ Welcome to this real-time **Fall Detection System** powered by **YOLOv5**, train
 ## 📁 Project Structure
 
 fall-detection-yolov5-tensorrt-jetson/
+
 ├── models/ # Trained weights (.pt, .wts, .engine)
+
 ├── jetson_optimisation/ # TensorRT conversion files
+
 ├── notebooks/ # Training logs, evaluation, confusion matrix
+
 ├── inference/ # Real-time inference scripts
-├── data/ # Dataset (images + labels)
+
+├── datasets/ # Dataset (images + labels)
+
 ├── README.md # Project description (this file)
+
 └── LICENSE # License (MIT)
 
 
