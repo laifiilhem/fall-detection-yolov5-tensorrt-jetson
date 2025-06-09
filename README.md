@@ -95,7 +95,7 @@ git clone --branch v0.11.1 https://github.com/pytorch/vision torchvision
 cd torchvision
 python3 setup.py install
  ```
-### Install Other Dependencies
+Install Other Dependencies
 ```bash
 pip3 install numpy==1.19.0 pandas Pillow tqdm imutils pycuda seaborn
 
@@ -152,7 +152,9 @@ NVIDIA Jetson Forum – PyTorch
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Thank you for visiting this repository! ⭐
+
+ 
+ ***Thank you for visiting this repository! ⭐
 
 
 
