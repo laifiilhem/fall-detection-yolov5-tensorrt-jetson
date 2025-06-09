@@ -69,17 +69,15 @@ python train.py --img 640 --batch 16 --epochs 500 --data data.yaml \
 ```
  Evaluation Notebooks
  
- notebooks/01_training_metrics.ipynb → View results.csv
-
-notebooks/02_test_inference.ipynb → Evaluate predictions on test set
-
-notebooks/03_confusion_matrix.ipynb → Display and save confusion matrix
+- notebooks/01_training_metrics.ipynb → View results.csv
+- notebooks/02_test_inference.ipynb → Evaluate predictions on test set
+- notebooks/03_confusion_matrix.ipynb → Display and save confusion matrix
 
 ##  Step 2: Deployment on Jetson Nano
 ###  Environment Setup (Jetson)
-JetPack 4.6 (includes CUDA 10.2, cuDNN, TensorRT)
+- JetPack 4.6 (includes CUDA 10.2, cuDNN, TensorRT)
 
-Python 3.6 is used by default on Jetson Nano
+- Python 3.6 is used by default on Jetson Nano
 
  Install PyTorch & torchvision on Jetson Nano
  Use the official NVIDIA wheel for Jetson Nano:
@@ -129,8 +127,9 @@ Detections are displayed with bounding boxes and labels: fall-action, sit, stand
 
 ## ✅ Results & Performance
 
-mAP, precision, recall, and confusion matrix generated during training
-Inference speed on Jetson Nano with TensorRT is significantly faster
+- mAP, precision, recall, and confusion matrix generated during training
+
+- Inference speed on Jetson Nano with TensorRT is significantly faster
 
 
 ## License
