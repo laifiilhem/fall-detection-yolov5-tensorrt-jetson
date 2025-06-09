@@ -130,7 +130,6 @@ Detections are displayed with bounding boxes and labels: fall-action, sit, stand
 ## ✅ Results & Performance
 
 mAP, precision, recall, and confusion matrix generated during training
-
 Inference speed on Jetson Nano with TensorRT is significantly faster
 
 
