@@ -102,7 +102,7 @@ pip3 install numpy==1.19.0 pandas Pillow tqdm imutils pycuda seaborn
 ```
 
 ## Step 3: Convert Model to TensorRT Engine
-### Generate .wts and .engine Files
+  Generate .wts and .engine Files
 ```bash
 cd jetson_optimisation/tensorrtx/yolov5
 python3 gen_wts.py -w ../../../models/best.pt -o best.wts
@@ -119,8 +119,6 @@ Output: best.engine file (TensorRT serialized engine)
 ## Step 4: Real-Time Inference
 Use webcam, RTSP stream, or video file:
 
-bash
-Copier le code
 
 ```bash
 cd inference
