@@ -142,11 +142,10 @@ Ilhem Laifi
 Electrical Engineering Student – ENIT, Tunisia
 
 ##  Acknowledgments
-Ultralytics YOLOv5
+- [YOLOv5 by Ultralytics](https://github.com/ultralytics/yolov5)  
+- [TensorRTx by wang-xinyu](https://github.com/wang-xinyu/tensorrtx)  
+- [NVIDIA Developer Forum – PyTorch for Jetson](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
 
-TensorRTx by wang-xinyu
-
-NVIDIA Jetson Forum – PyTorch
 
 ## Contributing
 
