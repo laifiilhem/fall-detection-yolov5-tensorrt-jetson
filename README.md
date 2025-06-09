@@ -95,14 +95,14 @@ git clone --branch v0.11.1 https://github.com/pytorch/vision torchvision
 cd torchvision
 python3 setup.py install
  ```
-###Install Other Dependencies
+### Install Other Dependencies
 ```bash
 pip3 install numpy==1.19.0 pandas Pillow tqdm imutils pycuda seaborn
 
 ```
 
-##Step 3: Convert Model to TensorRT Engine
-###Generate .wts and .engine Files
+## Step 3: Convert Model to TensorRT Engine
+### Generate .wts and .engine Files
 ```bash
 cd jetson_optimisation/tensorrtx/yolov5
 python3 gen_wts.py -w ../../../models/best.pt -o best.wts
@@ -116,7 +116,7 @@ Output: best.engine file (TensorRT serialized engine)
 
 
 
-##Step 4: Real-Time Inference
+## Step 4: Real-Time Inference
 Use webcam, RTSP stream, or video file:
 
 bash
@@ -129,28 +129,28 @@ python3 video_inference.py
 ```
 Detections are displayed with bounding boxes and labels: fall-action, sit, stand.
 
-##✅ Results & Performance
+## ✅ Results & Performance
 
 mAP, precision, recall, and confusion matrix generated during training
 
 Inference speed on Jetson Nano with TensorRT is significantly faster
 
 
-##License
+## License
 This project is licensed under the MIT License.
 
-##Author
+## Author
 Ilhem Laifi
 Electrical Engineering Student – ENIT, Tunisia
 
-##Acknowledgments
+##  Acknowledgments
 Ultralytics YOLOv5
 
 TensorRTx by wang-xinyu
 
 NVIDIA Jetson Forum – PyTorch
 
-##Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
