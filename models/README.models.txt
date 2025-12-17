@@ -4,7 +4,7 @@ This folder contains the exported and optimized models used in the Fall Detectio
 
 ---
 
-## 📁 Contents
+##  Contents
 
 - `best.pt`  
   - Format: PyTorch (`.pt`)  
@@ -23,7 +23,7 @@ This folder contains the exported and optimized models used in the Fall Detectio
 
 ---
 
-## ⚠️ Notes
+##  Notes
 
 - The `.pt` model was trained on a custom dataset composed of fall, sit, and stand images using YOLOv5 v6.0.
 - The `.wts` and `.engine` files were generated to accelerate inference on NVIDIA Jetson Nano using TensorRT.
@@ -34,7 +34,7 @@ This folder contains the exported and optimized models used in the Fall Detectio
 
 ---
 
-## 🧠 YOLOv5 Training Info
+##  YOLOv5 Training Info
 
 - YOLO version: `v6.0`  
 - Input size: `640x640`  
@@ -43,7 +43,7 @@ This folder contains the exported and optimized models used in the Fall Detectio
 
 ---
 
-## 👤 Author
+##  Author
 
 **Ilhem**  
 Electrical Engineering Student, ENIT  
